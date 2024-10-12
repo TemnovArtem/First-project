@@ -1,0 +1,108 @@
+*{
+margin: 0;
+padding: 0;
+
+}
+.block_start{
+display: block;
+background: black;
+color: antiquewhite;
+height: 500px;
+
+
+}
+.block_logo{
+display: block;
+background: black;
+color: antiquewhite;
+height: 1000px;
+}
+#logoshow{
+ position: relative;
+left:  845px;
+top: 250px;
+opacity: 0;   
+
+    }
+    #logoshow.final{
+opacity: 1;
+transition: 3s;
+  } 
+
+  #change{
+ height: 920px;
+background: black;
+
+  }
+  #change.main{
+background: white;
+transition: 2s;
+  }
+  .buttons{
+display: flex;
+gap:300px;
+flex-direction: row;
+flex-wrap: nowrap;
+justify-content: flex-end;
+align-items: flex-start;
+
+  }
+  .vari  {
+    display: block;
+    margin: 10px;
+    height: 40px;
+    width: 400px;
+    background: rgba(0,0,0,0.8 );
+    text-align: center;
+     color: white;
+     backdrop-filter: blur(10px);
+     font-size:40px;
+  }
+
+  .ab{
+   
+    display: block;
+    margin: 2px;
+    height: 40px;
+    width: 400px;
+    background: rgba(0,0,0,0.8 );
+   text-align: center;
+    color: white;
+    backdrop-filter: blur(10px);
+    font-size:40px;
+
+  } 
+  .cont{
+
+    display: block;
+    margin: 10px;
+    height: 40px;
+    width: 400px;
+    background: rgba(0,0,0,0.8 );
+    text-align: center;
+     color: white;
+     backdrop-filter: blur(10px);
+     font-size:40px;
+  }
+  .cont:hover{
+background: black;
+transition: 2px;
+text-decoration: none;
+
+
+  }
+  
+  .vari:hover{
+    background: black;
+    transition: 2px;
+    text-decoration: none;
+    
+    
+      }
+      .ab:hover{
+        background: black;
+        transition: 2px;
+        text-decoration: none;
+        
+        
+          }
